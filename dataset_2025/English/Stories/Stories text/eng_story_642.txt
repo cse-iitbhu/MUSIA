@@ -1,0 +1,5 @@
+I'm going to say IF it rains for more than 12 hours, THEN stop rain. 
+if (rain > 12 hours) { 
+stop rain; 
+} 
+Wow, Cody Cat! You did it! I can even see the sun now!

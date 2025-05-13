@@ -1,0 +1,6 @@
+Well, rainbows come when there's rain. But there's not even any rain right now. 
+I'm going to say IF rainbows appear with no rain, THEN remove the rainbow. 
+if (rainbow appears without rain) { remove rainbow 
+} 
+You did it, Cody Cat. I guess that's better for the environment. 
+Though they were REALLY PRETTY...

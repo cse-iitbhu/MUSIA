@@ -1,0 +1,4 @@
+I'm going to say IF triceratops foot lifts above me, THEN the triceratops will pause and step back gently. 
+if (triceratops foot above cat) { pause; step back gently; 
+} 
+Wow, Cody Cat! I do believe you've invented the world's first prehistoric protection bubble!
