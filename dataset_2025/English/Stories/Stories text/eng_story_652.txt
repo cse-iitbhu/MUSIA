@@ -1,0 +1,5 @@
+I'm going to say IF fog persists, THEN clear fog. 
+if (fog persists) { clear fog; 
+} 
+Wow, Cody Cat! We can see them 
+ALL now!
