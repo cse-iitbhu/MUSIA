@@ -1,0 +1,6 @@
+I'm going to say IF Ice Age is activated, THEN restore normal climate. 
+if (Ice Age activated) { 
+restore normal climate; 
+} 
+Thank goodness, Cody Cat! Those Triceratops would have turned into 
+Icy Pops!
