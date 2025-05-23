@@ -1,4 +1,0 @@
-I'm going to say IF a tornado is detected, THEN dissipate tornado. 
-if (tornado detected) { dissipate tornado; 
-} 
-Phew, Cody Cat! I'm glad it put you back on the ground, and not in that giant conifer!

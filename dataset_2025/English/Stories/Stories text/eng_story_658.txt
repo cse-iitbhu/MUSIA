@@ -1,5 +1,0 @@
-I know how to fix it! 
-if (earthquake detected) { 
-deactivate seismic 
-activity; 
-}

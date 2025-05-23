@@ -1,5 +1,0 @@
-I'm going to say IF the barometer reading goes higher than heatwave temperature, THEN decrease temperature. 
-if (reading > heatwave temperature) { 
-decrease temperature; 
-} 
-Great, Cody Cat! I'm feeling a bit cooler now!
