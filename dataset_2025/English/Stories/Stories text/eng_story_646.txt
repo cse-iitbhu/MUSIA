@@ -1,0 +1,5 @@
+I'm going to say IF the thunderstorm is frequent, THEN set the storm timer to less frequent. 
+if (thunderstorm frequent) { 
+set storm timer to less frequent; 
+} 
+Wow, Cody Cat! That did it! I can hear you again!
