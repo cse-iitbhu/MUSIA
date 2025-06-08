@@ -121,24 +121,31 @@
 				<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden">
 					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">Dataset Details</p>
 					<div class="px-4 pt-4">
-						<p class="text-[14px] text-[#333]">The dataset is given in two languages: English and Hindi. The training data, consists of the <b>Stories</b> folder that contains narrative texts/stories. Each story file is named following the convention:
-							<ul>
-							<li>eng_story_XXXX for English stories</li>
-							<li>hin_story_XXXX for Hindi stories</li>
-							</ul>
-						where XXXX is a zero-padded identifier (e.g., eng_story_0001, hin_story_0001). Corresponding image files are stored in the <b>Images</b> folder. For each story, the associated images follow the naming pattern:
-							<ul>
-								<li>eng_story_XXXX_01, eng_story_XXXX_02, ..., for English stories</li>
-								<li>hin_story_XXXX_01, hin_story_XXXX_02, ..., for Hindi stories</li>
-							</ul>
-						Image files are provided in .jpg, .jpeg, or .png formats. The training set includes, 360 English stories and 185 Hindi stories. </br></br>
-						The testing set comprises of 40 English stories and 30 Hindi stories. The testing data consists of <b>Stories</b> folder for each language contains the test narratives/stories and a <b>mapping file</b> for each language that specifies the number of images to be generated for each story. Participants are expected to:
-						<ul>
-							<li>Generate the specified number of images per story, matching the formats .jpg, .jpeg, or .png</li>
-							<li>Save the generated images using the naming convention: hin_story_XXXX_01, hin_story_XXXX_02, ..., for Hindi and eng_story_XXXX_01, eng_story_XXXX_02, ..., for English</li>
-							<li>Create seperate folders for both the languages containing images of the respective languages and package them into a single zip file for submission.</li>
+						<p class="text-[14px] text-[#333]">
+						    The dataset is given in two languages: English and Hindi. The training data consists of the <b>Stories</b> folder that contains narrative texts/stories. Each story file is named following the convention:
+						</p>
+						<ul class="text-[14px] text-[#333]">
+						    <li>eng_story_XXXX for English stories</li>
+						    <li>hin_story_XXXX for Hindi stories</li>
 						</ul>
-                                               </p>
+						<p class="text-[14px] text-[#333]">
+						    where XXXX is a zero-padded identifier (e.g., eng_story_0001, hin_story_0001). Corresponding image files are stored in the <b>Images</b> folder. For each story, the associated images follow the naming pattern:
+						</p>
+						<ul class="text-[14px] text-[#333]">
+						    <li>eng_story_XXXX_01, eng_story_XXXX_02, ..., for English stories</li>
+						    <li>hin_story_XXXX_01, hin_story_XXXX_02, ..., for Hindi stories</li>
+						</ul>
+						<p class="text-[14px] text-[#333]">
+						    Image files are provided in .jpg, .jpeg, or .png formats. The training set includes 360 English stories and 185 Hindi stories.
+						</p>
+						<p class="text-[14px] text-[#333]">
+						    The testing set comprises 40 English stories and 30 Hindi stories. The testing data consists of a <b>Stories</b> folder for each language that contains the test narratives/stories, and a <b>mapping file</b> for each language that specifies the number of images to be generated for each story. Participants are expected to:
+						</p>
+						<ul class="text-[14px] text-[#333]">
+						    <li>Generate the specified number of images per story, matching the formats .jpg, .jpeg, or .png</li>
+						    <li>Save the generated images using the naming convention: hin_story_XXXX_01, hin_story_XXXX_02, ..., for Hindi and eng_story_XXXX_01, eng_story_XXXX_02, ..., for English</li>
+						    <li>Create separate folders for both the languages containing images of the respective languages and package them into a single zip file for submission.</li>
+						</ul>
 						<!--<p class="py-[15px] font-[16px] text-[#333] font-bold">Note: Note: baseline model is just to give you a basic idea of our dir. structure and how one can classify context based data, there are no restrictions on any kind of experiments also please note this baseline model is only for task on Identification of Conversational Hate-Speech in Code-Mixed Languages(ICHCL) (Task-1 and Task 2)</p>-->
 					</div>
 				</div>
