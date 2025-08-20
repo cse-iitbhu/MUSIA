@@ -43,119 +43,34 @@
 				<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
 					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">Results</p>
 					<div class="m-3 w-full font-[16px] text-[#333]">
-						<!--<div class="flex flex-nowarp my-3 gap-2">
-							<a target="_blank" href="https://hasocfire.github.io/hasoc/2023/task1.html" class="text-white p-1 px-2 border-b-2 border-[#078186] italic bg-[#078186] rounded-md">Task 1</a>
-							<a target="_blank" href="https://hasocfire.github.io/hasoc/2023/ichcl.html" class="text-white p-1 px-2 border-b-2 border-[#078186] italic bg-[#078186] rounded-md">Task 2</a>
-							<a target="_blank" href="https://lcs2.in/hatenorm-2023/" class="text-white p-1 px-2 border-b-2 border-[#078186] italic bg-[#078186] rounded-md">Task 3</a>
-							<a target="_blank" href="https://sites.google.com/view/hasoc-2023-annihilate-hates/home" class="text-white p-1 px-2 border-b-2 border-[#078186] italic bg-[#078186] rounded-md">Task 4</a>
-						</div>-->
-						This phase has not yet started.
+
+						<p class="text-lg font-semibold mb-3">Evaluation Criteria</p>
+						<ul class="list-disc list-inside mb-5">
+							<li><span class="font-semibold">Consistency</span> is given the highest weight, followed by <span class="font-semibold">Relevance</span>, and then <span class="font-semibold">Visual Quality</span>.</li>
+							<li>For each criterion, the ratings follow the order: 
+								<span class="text-green-700 font-semibold">Good</span> &gt; 
+								<span class="text-yellow-600 font-semibold">Moderate</span> &gt; 
+								<span class="text-red-600 font-semibold">Fair</span>.
+							</li>
+							<li>The numbers in the tables represent the <span class="font-semibold">count of stories</span> where the generated images fall into these categories.</li>
+						</ul>
+
+						<p class="mb-6">
+							<span class="font-semibold">Example:</span> In <span class="italic">Retriever-run1 (English)</span>, under 
+							<span class="font-semibold">Consistency</span>, we see 
+							<code class="text-green-700 font-semibold">Good = 27</code>, 
+							<code class="text-yellow-600 font-semibold">Moderate = 3</code>, and 
+							<code class="text-red-600 font-semibold">Fair = 0</code>.  
+							This means out of 30 stories, images for 27 stories were highly consistent, 3 were moderately consistent, and none were judged as fair.
+						</p>
+
+						<p class="text-lg font-semibold mb-3">English Results</p>
+						<img src="static/Table1.jpg" alt="English Results" class="rounded-lg shadow-md mb-6 w-full md:w-[90%] mx-auto">
+
+						<p class="text-lg font-semibold mb-3">Hindi Results</p>
+						<img src="static/Table2.jpg" alt="Hindi Results" class="rounded-lg shadow-md w-full md:w-[90%] mx-auto">
 					</div>
 				</div>
-				<!--<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
-					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">HASOC 2022 Dataset</p>
-					<div class="m-3 w-full font-[16px] text-[#333]">
-						<div class="flex flex-nowarp w-full">
-							<p class="w-[60%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white rounded-tl-lg">Task</p>
-							<p class="w-[20%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white">Training Data</p>
-							<p class="w-[15%] border-[#078186] border-2 px-2 p-1 bg-[#078186BB] text-white rounded-tr-lg">Test Data</p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">Identification of Conversational Hate-Speech in Code-Mixed Languages(ICHCL) (Task-1 and Task 2)</p>
-							<p class="w-[20%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2023/data/contextual_2022_train.rar" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2023/data/test_data.rar" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2] rounded-bl-lg">Offensive Language Identification in Marathi (Task-3A, 3B, 3C)</p>
-							<p class="w-[20%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2023/data/contextual_2022_train.rar" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 group-hover:bg-[#f2f2f2] rounded-br-lg"><a target="_blank" href="https://hasocfire.github.io/hasoc/2023/data/test_data.rar" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
-					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">HASOC 2021 Dataset</p>
-					<p class="p-4 pb-0 font-[16px] text-[#333] font-bold">Subtask 1 Dataset</p>
-					<div class="m-3 w-full font-[16px] text-[#333]">
-						<div class="flex flex-nowarp w-full">
-							<p class="w-[60%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white rounded-tl-lg">Category</p>
-							<p class="w-[20%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white">Train Dataset</p>
-							<p class="w-[15%] border-[#078186] border-2 px-2 p-1 bg-[#078186BB] text-white rounded-tr-lg">Test Dataset</p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">English Dataset</p>
-							<p class="w-[20%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/en_Hasoc2021_train.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/test_english.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">Hindi Dataset</p>
-							<p class="w-[20%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/hi_Hasoc2021_train.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/test_hindi.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2] rounded-bl-lg">Marathi Dataset</p>
-							<p class="w-[20%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/mr_Hasoc2021_train.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 group-hover:bg-[#f2f2f2] rounded-br-lg"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/test_marathi.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-					</div>
-					<p class="p-4 pt-0 font-[16px] text-[#333] font-bold">Subtask 2 Dataset</p>
-					<div class="m-3 w-full font-[16px] text-[#333]">
-						<div class="flex flex-nowarp w-full">
-							<p class="w-[60%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white rounded-tl-lg">Category</p>
-							<p class="w-[20%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white">Train Dataset</p>
-							<p class="w-[15%] border-[#078186] border-2 px-2 p-1 bg-[#078186BB] text-white rounded-tr-lg">Test Dataset</p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2] rounded-bl-lg">English-Hindi Code-Mix Dataset</p>
-							<p class="w-[20%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/ICHCL_train.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-							<p class="w-[15%] border-2 p-2 group-hover:bg-[#f2f2f2] rounded-br-lg"><a target="_blank" href="https://hasocfire.github.io/hasoc/2021/files/subtask2_test.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-					</div>
-					<p class="text-[14px] text-[#333] mb-2 px-3">To know more about the subtasks, <a target="_blank" href="https://hasocfire.github.io/hasoc/2021/call_for_participation.html" class="text-[#078186] border-b-2 border-[#078186] italic">click here</a>.</p>
-				</div>
-				<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
-					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">HASOC 2020 Dataset</p>
-					<div class="m-3 w-full font-[16px] text-[#333]">
-						<div class="flex flex-nowarp w-full">
-							<p class="w-[60%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white rounded-tl-lg">Category</p>
-							<p class="w-[35%] border-[#078186] border-2 px-2 p-1 bg-[#078186BB] text-white rounded-tr-lg">Link</p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">English Dataset</p>
-							<p class="w-[35%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2020/files/English_2020.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">Hindi Dataset</p>
-							<p class="w-[35%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2020/files/Hindi_2020.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2] rounded-bl-lg">German Dataset</p>
-							<p class="w-[35%] border-2 p-2 group-hover:bg-[#f2f2f2] rounded-br-lg"><a target="_blank" href="https://hasocfire.github.io/hasoc/2020/files/German_2020.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-					</div>
-					<p class="text-[14px] text-[#333] mb-2 px-3">To know more <a target="_blank" href="https://hasocfire.github.io/hasoc/2020/call_for_participation.html" class="text-[#078186] border-b-2 border-[#078186] italic">click here</a>.</p>
-				</div>
-				<div class="h-full w-full md:w-[95%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
-					<p class="bg-[#f2f2f2] p-4 text-xl text-[#078186] font-bold">HASOC 2019 Dataset</p>
-					<div class="m-3 w-full font-[16px] text-[#333]">
-						<div class="flex flex-nowarp w-full">
-							<p class="w-[60%] border-[#078186] border-2 border-r-0 px-2 p-1 bg-[#078186BB] text-white rounded-tl-lg">Category</p>
-							<p class="w-[15%] border-[#078186] border-2 px-2 p-1 bg-[#078186BB] text-white rounded-tr-lg">Link</p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">English Dataset</p>
-							<p class="w-[15%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2019/files/english_dataset.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 border-b-0 p-2 group-hover:bg-[#f2f2f2]">Hindi Dataset</p>
-							<p class="w-[15%] border-2 p-2 border-b-0 group-hover:bg-[#f2f2f2]"><a target="_blank" href="https://hasocfire.github.io/hasoc/2019/files/hindi_dataset.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-						<div class="flex flex-nowarp w-full group text-sm">
-							<p class="w-[60%] border-2 border-r-0 p-2 group-hover:bg-[#f2f2f2] rounded-bl-lg">German Dataset</p>
-							<p class="w-[15%] border-2 p-2 group-hover:bg-[#f2f2f2] rounded-br-lg"><a target="_blank" href="https://hasocfire.github.io/hasoc/2019/files/german_dataset.zip" class="text-[#078186] border-b-2 border-[#078186] italic">Download</a></p>
-						</div>
-					</div>
-					<p class="text-[14px] text-[#333] mb-2 px-3">To know more <a target="_blank" href="https://hasocfire.github.io/hasoc/2019/call_for_participation.html" class="text-[#078186] border-b-2 border-[#078186] italic">click here</a>.</p>
-				</div>-->
 				<div class="h-full w-full md:w-[80%] rounded-xl border border-gray-200 shadow-lg overflow-hidden mt-4">
 					<p class="bg-[#f2f2f2] p-[15px] text-xl text-[#078186] font-bold">Contact us</p>
 					<div class="px-[15px]">
